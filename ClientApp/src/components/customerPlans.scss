@@ -1,0 +1,52 @@
+.wrapper {
+  margin: 2rem;
+
+  h1 {
+    background-color: #0a2463;
+    margin: 0;
+  }
+  h2 {
+    background-color: #0a2463;
+    margin: 0;
+  }
+  .plan-content {
+    display: flex;
+    aside {
+      margin-left: 1rem;
+      // width: 25vw;
+      // min-width: 35vw;
+      background-color: #0a2463;
+
+      margin: 0;
+      ul {
+        padding: 0rem;
+        margin: 1rem 1rem;
+        display: flex;
+        flex-direction: column;
+      }
+      button {
+        background-color: #8d0000;
+        border: none;
+        color: white;
+        padding: 0.5rem;
+        text-align: center;
+        font-size: 16px;
+        margin: 0.2rem;
+
+        opacity: 1;
+        transition: 0.3s;
+      }
+    }
+    main {
+      display: flex;
+      margin: 0rem;
+      width: 100vw;
+      background-color: #0a2463;
+      p {
+        margin-left: 1rem;
+        width: 60%;
+        text-align: justify;
+      }
+    }
+  }
+}

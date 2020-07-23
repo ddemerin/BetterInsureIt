@@ -47,98 +47,53 @@ const Footer = () => {
             </img>
           </div>
         </div>
+        <div className="footer-center">
+          <ul className="footer-center-items">
+            <li>
+              <button className="footer-center-items-button">
+                <p>Meet the team</p>
+              </button>
+            </li>
+            <li>
+              <button className="footer-center-items-button">
+                <p>Join Us</p>
+              </button>
+            </li>
+            <li>
+              <button className="footer-center-items-button">
+                <p>Contact Us</p>
+              </button>
+            </li>
+            <li>
+              <button className="footer-center-items-button">
+                <p>Contests & Blogs</p>
+              </button>
+            </li>
+          </ul>
+        </div>
         <div className="footer-right">
-          <div className="footer-logo-container">
-            <h3>Client Testimonies</h3>
-          </div>
-          <div className="testimony">
-            {/* <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-              non quis exercitationem culpa nesciunt nihil aut nostrum explicabo
-              reprehenderit optio amet ab temporibus asperiores quasi
-              cupiditate. Voluptatum ducimus voluptates voluptas?
-            </p> */}
-            <Carousel>
-              <Carousel.Item>
-                <div className="testimony-item">
-                  <div className="testimony-pic">
-                    <img
-                      className="d-block w-100"
-                      src={man}
-                      alt="Third slide"
-                    />
-                  </div>
-                  <div className="testimony-text">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Eligendi non quis exercitationem culpa nesciunt nihil aut
-                      nostrum explicabo reprehenderit ab temporibus asperiores
-                      on quis culpa nesciunt quasi cupiditate. Voluptatum
-                      ducimus voluptates voluptas?
-                    </p>
-                  </div>
-                </div>
-                {/* <Carousel.Caption>
-                  <h3>Second slide label</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </Carousel.Caption> */}
-              </Carousel.Item>
-              <Carousel.Item>
-                <div className="testimony-item">
-                  <div className="testimony-pic">
-                    <img
-                      className="d-block w-100"
-                      src={man}
-                      alt="Third slide"
-                    />
-                  </div>
-                  <div className="testimony-text">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Eligendi non quis exercitationem culpa nesciunt nihil aut
-                      nostrum explicabo reprehenderit ab temporibus asperiores
-                      on quis culpa nesciunt quasi cupiditate. Voluptatum
-                      ducimus voluptates voluptas?
-                    </p>
-                  </div>
-                </div>
-                {/* <Carousel.Caption>
-                  <h3>Second slide label</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </Carousel.Caption> */}
-              </Carousel.Item>
-              <Carousel.Item>
-                <div className="testimony-item">
-                  <div className="testimony-pic">
-                    <img
-                      className="d-block w-100"
-                      src={man}
-                      alt="Third slide"
-                    />
-                  </div>
-                  <div className="testimony-text">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Eligendi non quis exercitationem culpa nesciunt nihil aut
-                      nostrum explicabo reprehenderit ab temporibus asperiores
-                      on quis culpa nesciunt quasi cupiditate. Voluptatum
-                      ducimus voluptates voluptas?
-                    </p>
-                  </div>
-                </div>
-                {/* <Carousel.Caption>
-                  <h3>Second slide label</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </Carousel.Caption> */}
-              </Carousel.Item>
-            </Carousel>
-          </div>
+          <ul className="footer-right-items">
+            <li>
+              <button className="footer-right-items-button">
+                <p>Individuals and Families</p>
+              </button>
+            </li>
+            <li>
+              <button className="footer-right-items-button">
+                <p>Business Owners</p>
+              </button>
+            </li>
+            <li>
+              <button className="footer-right-items-button">
+                <p>Turning 65 +</p>
+              </button>
+            </li>
+            <li>
+              <button className="footer-right-items-button">
+                <p>Planning and Guidance</p>
+              </button>
+            </li>
+          </ul>
         </div>
       </div>
       <div>
